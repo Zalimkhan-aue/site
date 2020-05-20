@@ -1,0 +1,97 @@
+body{
+	background: #000;
+	padding: 0;
+	display: flex; 
+}
+
+.container{
+	max-width: 1250px;
+	margin: 0 auto;
+	background: #53B25D;
+	box-sizing: border-box;
+}
+
+nav > ul{
+	display: flex;
+	padding: 10px 15px;	
+	background: #2B00FF;
+	margin: 0px;
+}
+.nav > li{
+	background: #fff;
+	padding: 5px 10px;
+	list-style-type: none;
+	cursor: pointer;
+}
+.nav > li+li{
+	margin-left: 10px;
+}
+.nav> li> a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+}
+ .Shapca{
+ 	display: flex;
+	background: #fff;
+	justify-content: center;
+	margin-top: -10;
+}
+ .Shapca>h1>a{
+ 	text-decoration:none;
+ 	color: #000;
+ }
+
+	.main{
+		display: flex;
+		padding: 10px 15px;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+	.main p+p{
+		margin-left: 16px;
+	}
+	.main-1{
+	background: #fff;
+	padding: 10px;
+	}
+
+	.main-2{
+		background: #fFF;
+			padding: 10px;
+	}
+	.main-3{
+		background: #fFF;
+			padding: 10px;
+	}
+
+
+}
+.main-1 .main-2 .main-3{
+	padding: 10px 15px;
+}
+ .nav{
+ 	flex:1; 
+ }
+ .main{
+ 	flex:2;
+ }
+ footer{
+ 	flex:1;
+ 	display: flex;
+ 	background: #685E62;
+ 	margin: auto;
+ 	padding:50px 80px;
+ 	font-weight: 100;
+ 	flex-direction: column;
+ }
+ .mail{
+ 	margin: auto;
+ 	padding-top:11px; 
+ }
+ .num{
+ 	margin: auto;
+ }
+  footer>.mail>a{
+  	color: #fff;
+  }
